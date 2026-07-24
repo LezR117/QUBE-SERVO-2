@@ -1,4 +1,4 @@
-## Proyecto Terminal 1.4: Control de Péndulo Invertido en QUBE-Servo 2
+## PROYECTO TERMINAL 1.5: Control de Péndulo Invertido en QUBE-Servo 2
 Este repositorio contiene la documentación, los scripts de simulación y los modelos de control desarrollados para el Proyecto Terminal 1 / Tesis 1. El propósito principal de este proyecto consiste en investigar, instalar y configurar el entorno de software requerido para el equipo QUBE-Servo 2 de Quanser, modelar matemáticamente el sistema de péndulo rotatorio, analizar el desempeño de controladores modernos (como el aprendizaje por refuerzo y control clásico) y validar su funcionamiento tanto en simulación como en hardware físico o virtual.
 
 <img width="1543" height="2000" alt="image" src="https://github.com/user-attachments/assets/75a184ff-c86f-48b5-acd2-c0c10607a455" />
