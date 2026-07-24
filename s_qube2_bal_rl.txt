@@ -1,0 +1,28 @@
+% 1. Parámetros de tiempo y simulación
+Ts = 0.01; 
+Tf = 10;
+
+% 2. Pesos de recompensa (ESTO ES LO QUE FALTABA)
+q11 = 10; q22 = 20; q33 = 0; q44 = 1; r = 0.1; B = -100;
+
+% 3. Limpiar y Cargar parámetros físicos
+clear agent
+run("qube2_rotpen_param.m"); 
+ic_alpha0 = pi; 
+Vmax = 5; 
+theta_max = 60*pi/180; 
+alpha_bal_threshold = 10*pi/180;
+
+% 4. Configuración del Entorno RL
+obsInfo = rlNumericSpec([4 1]); 
+actInfo = rlNumericSpec([1 1],'LowerLimit',-Vmax,'UpperLimit',Vmax);
+mdl = 's_qube2_bal_rl';
+agentBlk = [mdl '/RL Agent'];
+env = rlSimulinkEnv(mdl,agentBlk,obsInfo,actInfo);
+
+% 5. Cargar el Agente entrenado
+load('QubeIPBalDDPG09.mat','agent'); 
+
+% 6. Abrir modelo
+class(agent)
+open('s_qube2_bal_rl.slx')
