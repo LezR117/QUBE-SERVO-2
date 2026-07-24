@@ -65,3 +65,7 @@ MATLAB Central File Exchange - QUBE-Servo 2 Pendulum RL
 E-Book sobre Aprendizaje por Refuerzo con MATLAB
 Videos de "Tech Talks" sobre Aprendizaje por Refuerzo
 Página Oficial del Reinforcement Learning Toolbox
+
+# Configuración de Matlab:
+<img width="546" height="316" alt="image" src="https://github.com/user-attachments/assets/c3ac7501-beaa-4d3e-85d3-9b5b7231dc57" />
+
