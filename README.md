@@ -66,6 +66,14 @@ E-Book sobre Aprendizaje por Refuerzo con MATLAB
 Videos de "Tech Talks" sobre Aprendizaje por Refuerzo
 Página Oficial del Reinforcement Learning Toolbox
 
-# Configuración de Matlab:
+# Matlab caracteristicas del motor Qube-Servo2:
+<img width="431" height="401" alt="image" src="https://github.com/user-attachments/assets/c4705681-671c-441f-bb2c-512f22ccdcad" />
+
 <img width="546" height="316" alt="image" src="https://github.com/user-attachments/assets/c3ac7501-beaa-4d3e-85d3-9b5b7231dc57" />
+
+# Matlab pruebas del funcionamiento del motor:
+<img width="446" height="386" alt="image" src="https://github.com/user-attachments/assets/1a85a3a2-4f44-4c73-a3b1-89eb4143ce09" />
+
+
+
 
